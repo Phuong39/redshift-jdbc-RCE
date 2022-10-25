@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="redshift-jdbc-RCE:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>redshift-jdbc-RCE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="redshift-jdbc-RCE.war">
+      <element id="artifact" artifact-name="redshift-jdbc-RCE:war exploded" />
+    </root>
+  </artifact>
+</component>
